@@ -2,11 +2,9 @@ import random
 
 ##################################################
 # Make your lambda function here
-# greater =
-# filter50 =
+greater = lambda x, y : x if x > y else y
+filter50 = lambda list: [x for x in list if x > 50]
 ##################################################
-
-
 
 def main():
     print(greater(10, 20))
